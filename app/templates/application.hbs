@@ -1,4 +1,12 @@
-<HelloWorld type="Type From Parent" title="Title From Parent" />
-<HelloWorld @name={{this.model.name}} />
+{{!-- <HelloWorld type="Type From Parent" title="Title From Parent" />
+<HelloWorld @name={{this.model.name}} /> --}}
+
+<LinkTo @route="application">
+  HOME
+</LinkTo>
+ |
+<LinkTo @route="super-blog.posts">
+  POSTS
+</LinkTo>
 
 {{outlet}}
