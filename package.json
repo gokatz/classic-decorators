@@ -49,6 +49,11 @@
   "engines": {
     "node": "8.* || >= 10.*"
   },
+    "ember-addon": {
+    "paths": [
+      "lib/super-blog"
+    ]
+  },
   "keywords": [],
   "dependencies": {
     "ember-classic-decorator": "^0.1.2"
